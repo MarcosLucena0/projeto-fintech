@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(-45deg,rgb(6, 39, 136), rgb(55, 171, 224));
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    padding: 120px 30px; 
+    border-radius: 10px;
+}
+
+.form-container {
+    background-color: #000000;
+    
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #21c9ee;
+    background-color: rgb(33, 201, 238);
+    border-radius: 10px;
+    color: black;
+    font-weight: 600; 
+    
+}
+
+.btn:hover {
+    background-color: #0a4754;
+    color: white;
+    border: none;
+}
+
+input {
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.links {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.esqSenha{
+    text-decoration: none;
+    color: rgb(13, 142, 171);
+}
+
+.cadastrar {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+
+/*CSS da pagina de MENU*/
+
+.container_menu {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background-color: black;
+    transform: translate(-50%, -50%);
+    padding: 80px 20px 60px;
+    width: min-content;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#int {
+    color: white;
+    position: relative;
+    font-size: 20px;
+    top: -50px;
+    left: 270px;
+}
+
+.nome {
+    padding: 0px 50px 10px;
+    background-color: #21c9ee;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-top: -40px;
+}
+
+
+
+.nome i {
+    position: relative;
+    top: 18px;
+    color: #111010;
+    left: -30px;
+    font-size: 20px;
+}
+
+hr {
+    margin: 10px;
+}
+
+.conta {
+    position: relative;
+    padding: 0px 90px 10px;
+    background-color: #21c9ee;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.conta p {
+    position: relative;
+    right: 75px;
+    margin: 10px;
+}
+
+.conta i {
+    position: relative;
+    top: 30px;
+    color: #000000;
+    left: 160px;
+    font-size: 20px;
+}
+
+.descricao {
+    margin-top: 10px;
+    position: relative;
+    padding: 10px 90px 10px;
+    background-color: #21c9ee;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+}
+
+.gastos {
+    margin-top: 10px;
+    position: relative;
+    padding: 20px 30px 15px 30px;
+    background-color: #21c9ee;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    margin: 10px 0px 0px 10px;
+}
+
+.recebimentos {
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    padding:  20px 20px 15px 20px;
+    background-color: #21c9ee;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.investimentos {
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    padding:  30px 36px 20px 20px;
+    background-color: #21c9ee;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+}
+
+
